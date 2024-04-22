@@ -1,0 +1,2 @@
+# DSView
+DSView编译为Windows版本，解决libusb_get_pollfds、USB热插拔在Windows上无法使用问题
