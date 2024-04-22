@@ -27,8 +27,8 @@ project(DSView)
 #= Config Header
 #-------------------------------------------------------------------------------
 
-set(DS_TITLE xTPM)
-set(DS_DESCRIPTION "TPM Sniffer")
+set(DS_TITLE DSView)
+set(DS_DESCRIPTION "DSView logical analyzer")
 
 set(DS_VERSION_MAJOR 1)
 set(DS_VERSION_MINOR 3)
