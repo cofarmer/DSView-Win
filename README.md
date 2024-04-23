@@ -34,3 +34,4 @@ pacman -S mingw-w64-x86_64-qt5-static
 cmake .  
 ninja  
 ```
+如果在链接时遇到glib中的符号未定义，则将build.ninja中的-lglib-2.0移动到行位，再次执行ninja将继续编译链接。
