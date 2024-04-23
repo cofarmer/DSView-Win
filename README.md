@@ -19,6 +19,7 @@ DSView编译为Windows版本，解决libusb_get_pollfds、USB热插拔在Windows
  - libpython > 3.2
  - libtool
  - pkg-config >= 0.22
+   
 如：
 ```
 pacman -S mingw-w64-x86_64-gcc
