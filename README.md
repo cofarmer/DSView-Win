@@ -6,7 +6,6 @@ DSView编译为Windows版本，解决libusb_get_pollfds、USB热插拔在Windows
 # 依赖包下载  
 通过pacman命令下载以下依赖项
  - gcc (>= 4.0)
- - g++
  - make
  - cmake >= 2.6
  - Qt >= 5.0
@@ -20,6 +19,14 @@ DSView编译为Windows版本，解决libusb_get_pollfds、USB热插拔在Windows
  - libpython > 3.2
  - libtool
  - pkg-config >= 0.22
+如：
+```
+pacman -S mingw-w64-x86_64-gcc
+pacman -S mingw-w64-x86_64-make
+pacman -S mingw-w64-x86_64-cmake
+pacman -S mingw-w64-x86_64-qt5-static
+......
+```
    
 # 编译
 ```
